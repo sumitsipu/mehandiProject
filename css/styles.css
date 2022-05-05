@@ -1,0 +1,119 @@
+body {
+  background-color: #540807;
+  color: #af6765;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.image-banner {
+  width: 100%;
+}
+
+.images-banner {
+  margin-bottom: 0;
+}
+
+nav {
+  background-color: #540807;
+}
+
+.navbar-brand {
+  color: #ffb300;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #ffb300;
+}
+
+#imagebanner-hr {
+  margin-top: 0;
+  height: 10px;
+  background-image: linear-gradient(to right, #faf5eb, #dca2a8, #ffb300);
+  opacity: 1;
+}
+
+h1,
+h2 {
+  color: #ffb300;
+  margin: 2rem;
+  font-family: "Montserrat", sans-serif;
+  size: 3rem;
+  line-height: 1.5;
+}
+
+.serve-hr {
+  width: 70%;
+}
+
+hr {
+  opacity: 1;
+  margin: auto;
+}
+
+.row {
+  margin: 30px;
+}
+
+#serve-h2.serve-h2 {
+  margin-bottom: 0;
+}
+
+.welcome-message {
+  text-align: left;
+  width: 70%;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 998px) {
+  .welcome-message {
+    margin: auto;
+  }
+}
+
+button {
+  margin: 1rem;
+}
+
+.navbar {
+  margin: 1rem;
+}
+
+.navbar-toggler {
+  border: 2px solid #ffb300;
+  padding: 0.4rem;
+}
+
+.icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  border: 1px solid #ffb300;
+  margin: 2px;
+}
+
+.artist-image {
+  height: 80%;
+  width: 40%;
+}
+
+.mehandi-type {
+  height: 22rem;
+  transition: transform 0.5s ease-in-out;
+  margin-bottom: 1rem;
+}
+
+.mehandi-type:hover {
+  transform: scale(1.2);
+}
+
+.footer-icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 2rem;
+}
+
+.container-fluid {
+  padding: 0;
+}
